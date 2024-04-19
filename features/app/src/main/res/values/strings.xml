@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start">S T A R T</string>
+    <string name="your_profile">Your profile,</string>
+    <string name="change_mother_language">Change mother language</string>
+    <string name="switch_theme">Switch theme</string>
+    <string name="change_your_image">Change your image</string>
+    <string name="logout">Logout</string>
+    <string name="hello">Hello,</string>
+    <string name="are_you_ready_for_learning_today">Are you ready for learning today?</string>
+    <string name="top_users">Top users</string>
+    <string name="available_excersises">Available excersises</string>
+    <string name="guess_the_animal">Guess the animal</string>
+    <string name="word_practice">Word practice</string>
+    <string name="audition">Audition</string>
+    <string name="game">Game</string>
+    <string name="write_who_is_on_image">Write who is on image</string>
+    <string name="check">Check</string>
+    <string name="holy_molly_that_is_right">Holy Molly! That is Right!</string>
+    <string name="next">Next</string>
+    <string name="try_again">Try again</string>
+    <string name="eh_wrong_answer">Eh? Wrong answer :(</string>
+    <string name="that_is">that is</string>
+    <string name="listening">Listening</string>
+    <string name="please_press_button_and_say_this_n_word_our_service_will_check_n_your_pronunciation">Please press button and say this \n word. Our service will check\n your pronunciation</string>
+    <string name="your_result">Your result</string>
+    <string name="check_my_speech">Check my speech</string>
+    <string name="yay_go_next">Yay! Go next</string>
+</resources>

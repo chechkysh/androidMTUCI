@@ -1,0 +1,30 @@
+<resources>
+    <string name="start">S T A R T</string>
+    <string name="your_profile">Ваш профиль,</string>
+    <string name="change_mother_language">Сменить язык</string>
+    <string name="switch_theme">Сменить тему</string>
+    <string name="change_your_image">Сменить изображение</string>
+    <string name="logout">Выйти</string>
+    <string name="hello">Привет,</string>
+    <string name="are_you_ready_for_learning_today">Готовы ли вы учиться сегодня?</string>
+    <string name="top_users">Топ пользователей</string>
+    <string name="available_excersises">Доступные упражнения</string>
+    <string name="guess_the_animal">Угадай животное</string>
+    <string name="word_practice">Словесная практика</string>
+    <string name="audition">Прослушивание</string>
+    <string name="game">Игра</string>
+
+    <string name="write_who_is_on_image">Напишите кто на картинке</string>
+    <string name="check">Проверить</string>
+    <string name="holy_molly_that_is_right">Это верно!</string>
+    <string name="next">Дальше</string>
+    <string name="try_again">Попробуйте еще</string>
+    <string name="eh_wrong_answer">Э? Неверный ответ :(</string>
+    <string name="that_is">это</string>
+
+    <string name="listening">Прослушивание</string>
+    <string name="please_press_button_and_say_this_n_word_our_service_will_check_n_your_pronunciation">Пожалуйста, нажмите кнопку и произнесите это  слово.\n Наш сервис проверит ваше произношение</string>
+    <string name="your_result">Ваш результат</string>
+    <string name="check_my_speech">Проверьте мою речь</string>
+    <string name="yay_go_next">Ура! Идти дальше</string>
+</resources>

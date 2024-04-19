@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_id"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="app.web.chechkysh.features.splash.presentation.Splash"
+        tools:layout="@layout/splash">
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/onboarding"
+        android:name="app.web.chechkysh.features.onboarding.presentation.OnBoarding"
+        tools:layout="@layout/onboarding">
+
+        <deepLink app:uri="android-app://app.web.chechkysh/onboarding" />
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/language"
+        android:name="app.web.chechkysh.features.onboarding.presentation.ChoiceLanguage"
+        tools:layout="@layout/language_choice_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/language" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/login"
+        android:name="app.web.chechkysh.features.onboarding.presentation.Login"
+        tools:layout="@layout/login_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/login" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signup"
+        android:name="app.web.chechkysh.features.onboarding.presentation.SignUp"
+        tools:layout="@layout/signup_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/signup" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupPass"
+        android:name="app.web.chechkysh.features.onboarding.presentation.SignUpPass"
+        tools:layout="@layout/signup_pass_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/signupPass" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="app.web.chechkysh.features.app.presentation.Profile"
+        tools:layout="@layout/profile"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/profile" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/main"
+        android:name="app.web.chechkysh.features.app.presentation.MainScreen"
+        tools:layout="@layout/main_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/main" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameThree"
+        android:name="app.web.chechkysh.features.app.presentation.GameThree"
+        tools:layout="@layout/game_three_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/gamethree" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameOne"
+        android:name="app.web.chechkysh.features.app.presentation.GameOne"
+        tools:layout="@layout/profile"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/gameone" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameTwo"
+        android:name="app.web.chechkysh.features.app.presentation.GameTwo"
+        tools:layout="@layout/game_two_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.chechkysh/gametwo" />
+
+    </fragment>
+</navigation>
